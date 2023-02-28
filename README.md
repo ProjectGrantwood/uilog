@@ -1,5 +1,5 @@
 # UILOG
-A minimal JS/CSS framework for webgame developers to display text content.
+A minimal JS/CSS framework for webgame developers to display dynamically styled text content.
 ---
 ---
 ## Features
