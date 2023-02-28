@@ -39,7 +39,7 @@ class UILOG {
     
     inform(infoMessage) {
         let ui = document.getElementById(this.elementId);
-        let timestampHTML = this.getTimeStamp();
+        let timestamp = this.getTimeStamp();
         ui.innerHTML += `<div class="uiloginfo">${timestamp.renderContent ? generateTimestampHTML(timestamp.rawTimestamp) : ''} ${infoMessage}</div>`;
         this.addToMessageHistory(infoMessage, 'info', timestamp);
         this.popOverflow();
@@ -47,7 +47,7 @@ class UILOG {
     
     upgrade(upgradeMessage) {
         let ui = document.getElementById(this.elementId);
-        let timestampHTML = this.getTimeStamp();
+        let timestamp = this.getTimeStamp();
         ui.innerHTML += `<div class="uilogupgrade">${timestamp.renderContent ? generateTimestampHTML(timestamp.rawTimestamp) : ''} ${upgradeMessage}</div>`;
         this.addToMessageHistory(upgradeMessage, 'upgrade', timestamp);
         this.popOverflow();
