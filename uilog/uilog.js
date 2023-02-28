@@ -1,6 +1,6 @@
 class UILOG {
     
-    constructor(elementId, maxChildren = 4, maxHistory = 255, useTimestamps = true) {
+    constructor(elementId, maxRenderableChildren = 4, maxHistory = 255, useTimestamps = true) {
         this.elementId = elementId;
         this.maxRenderableChildren = maxRenderableChildren;
         this.maxHistory = maxHistory;
