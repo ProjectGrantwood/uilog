@@ -3,7 +3,7 @@ A minimal JS/CSS framework for webgame developers to display dynamic text conten
 ---
 ---
 ## Features:
-- Control of message display through a single javascript class designated `UILOG`. 
+- Control of message display through a javascript class designated `UILOG`. 
 - Dynamically generated HTML through Javascript methods with automatic styling, meaning you can focus more on creating content and focus less on how to render it.
 - Automatic, toggle-able timestamping of displayed messages.
 - Built-in cycling of log messages to keep your UI from getting cluttered.
