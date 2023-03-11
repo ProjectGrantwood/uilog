@@ -21,10 +21,10 @@ A minimal JS/CSS framework for webgame developers to display dynamic text conten
 3. In your javascript, declare a new UILOG object with a unique ID.
    ```Javascript
    const myUILOG = new UILOG('my-UILOG-id')
-4. Anywhere in the body element of your HTML document, include an element with that id that will be targeted by the UILOG object's methods.
+4. Anywhere in the body element of your HTML document, include an element with that id that will be targeted by the UILOG object's methods, with its class attribute set to ```uilog```.
 
     ``` HTML
-    <div id="my-UILOG-id"></div>
+    <div id="my-UILOG-id" class="uilog"></div>
     ```
 
 5. You're ready to render information to players using JS. Below is just one example of a use case:
